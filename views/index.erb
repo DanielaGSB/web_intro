@@ -1,5 +1,7 @@
 Gato separando la funcion de colorear el borde
-<h1> My name is <%= @random %> <h1>
+<% if @name %>
+<h1> My name is <%= @name %> <h1>
+<%end%>
 <div style='border: 3px dashed red'>
   <img src='http://bit.ly/1eze8aE'>
 </div>
