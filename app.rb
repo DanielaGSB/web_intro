@@ -1,17 +1,4 @@
 require 'sinatra'
-# require 'shotgun'
-
-get '/' do
-  "hello!"
-end
-
-get '/secret/' do
-  "shhh"
-end
-
-get '/hola' do
-  "test"
-end
 
 get '/random-cat' do
   @name = ["Amigo", "Oscar", "Viking"].sample
