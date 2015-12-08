@@ -8,6 +8,6 @@ end
 
 get '/named-cat' do
   p params
-  @name = params[:name]
+  @hh = params[:name]
   erb(:index)
 end
